@@ -1,5 +1,5 @@
 # FFXIV Submarine Salvaged Goods Calculator
-**SubSalvageCalculator** is a lightweight python based program that takes inputs from Final Fantasy XIV's loot-log to calculate the total value of salvaged goods. The program is meant to be utilized by users who wish to track or otherwise bookkeep earnings from each submarine, whether for the purpose of optimizing loot gains, logging Free Company gil income, or other potential uses. The frontend was made with the [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter) library.
+**SubSalvageCalculator** is a lightweight python-based program that takes inputs from Final Fantasy XIV's loot-log to calculate the total value of salvaged goods. The program is meant to be utilized by users who wish to track or otherwise bookkeep earnings from each submarine, whether for the purpose of optimizing loot gains, logging Free Company gil income, or other potential uses. The backend logic is majority input cleaning, cutting out non-salvaged goods first before searching for the eight different potential salvaged goods. After finding hits under those criteria, the number next to each of the entries are extracted and stored for later computation. A final sum is then sent to the frontend to be printed. The frontend was made with the [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter) library.
 
 
 
